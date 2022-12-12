@@ -104,7 +104,6 @@ menu,
 nav,
 section {
   display: block;
-  text-decoration: none;
 }
 body {
   line-height: 1;
