@@ -1,12 +1,12 @@
 body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: 10vh auto auto auto auto;
 }
 h1 {
   text-align: center;
   width: 100%;
-  background-color: bisque;
+  color: wheat;
   text-transform: uppercase;
 }
 .logo {
@@ -23,7 +23,6 @@ h1 {
 menu {
   grid-column: 5 / 12;
   grid-row: 1;
-  background-color: rgb(46, 81, 169);
 }
 ul {
   display: flex;
@@ -46,8 +45,8 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid rgb(255, 255, 255);
-  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(0, 0, 0);
+  border-top: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
 }
 section#home {
@@ -58,8 +57,8 @@ section#home {
   align-items: center;
 }
 .imgslide {
-  width: 500px;
-  height: 185px;
+  width: 700px;
+  height: 259px;
   overflow: hidden;
 }
 section#mapping {
@@ -90,6 +89,7 @@ footer {
   justify-content: center;
   align-items: flex-start;
   flex-direction: row;
+  padding: 5px;
 }
 .footerb .bsatu .address p {
   display: flex;
@@ -103,21 +103,21 @@ footer {
   align-items: center;
 }
 .bsatu {
-  width: 30vw;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .bdua {
-  width: 30vw;
+  width: 30%;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: column;
 }
 .btiga {
-  width: 30vw;
+  width: 30%;
   display: flex;
   justify-content: space-around;
   align-items: center;
