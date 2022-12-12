@@ -43,6 +43,11 @@ ul li a:hover {
   border-top: 1px solid rgb(255, 255, 255);
   border-radius: 10px;
 }
+section#home {
+  grid-column: 1/13;
+  height: 100vh;
+  background-color: aqua;
+}
 .active {
   padding: 10px;
   display: flex;
@@ -50,4 +55,29 @@ ul li a:hover {
   align-items: center;
   border-bottom: 1px solid black;
   border-radius: 10px;
+}
+@media screen and (max-width: 720px) {
+  .logo {
+    grid-column: 1/13;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px hsl(0, 0%, 50%);
+  }
+  menu {
+    grid-column: 1/13;
+    grid-row: 2;
+  }
+  ul {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    box-shadow: 0px 0px 5px hsl(0, 0%, 50%);
+  }
 }
