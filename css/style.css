@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10vh auto 50vh 50vh 50vh 50vh auto;
+  grid-template-rows: 10vh auto 50vh 50vh 50vh auto 50vh auto;
 }
 a {
   display: flex;
@@ -66,17 +66,88 @@ section#testimony {
   align-items: center;
   background-color: rgb(255, 255, 255);
 }
-section#mapping {
+section#ourteam {
   grid-column: 1/13;
   grid-row: 6;
   display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: rgb(220, 220, 220);
+}
+#ourteam h1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+#ourteam .ourteam {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#ourteam .left {
+  width: 30%;
+  height: 350px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(204, 204, 204);
+  text-align: center;
+  flex-direction: column;
+}
+#ourteam .left .otlimg {
+  width: 200px;
+  height: 250px;
+  background-image: url(/img/potraid2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#ourteam .center {
+  width: 30%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#ourteam .center .otcimg {
+  width: 200px;
+  height: 250px;
+  background-image: url(/img/potraid2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#ourteam .right {
+  width: 30%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+#ourteam .right .otrimg {
+  width: 200px;
+  height: 250px;
+  background-image: url(/img/potraid2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section#mapping {
+  grid-column: 1/13;
+  grid-row: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
 }
 footer {
   grid-column: 1/13;
-  grid-row: 7;
+  grid-row: 8;
 }
 .address {
   display: flex;
