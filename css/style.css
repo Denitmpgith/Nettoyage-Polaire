@@ -213,7 +213,7 @@ footer {
   }
   section#ourteam .ourteam {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
     background-color: rgb(220, 220, 220);
@@ -260,7 +260,7 @@ footer {
   section#service .text {
     width: 85vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
   }
