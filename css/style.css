@@ -48,15 +48,8 @@ section#service {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   background-color: rgb(223, 223, 223);
-}
-section#service .text {
-  width: 400px;
-  height: 300px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
 }
 section#service .text h1 {
   font-size: 2rem;
@@ -91,6 +84,12 @@ section#ourteam {
   flex-direction: column;
   background-color: rgb(220, 220, 220);
 }
+section#ourteam .ourteam {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: rgb(220, 220, 220);
+}
 #ourteam h1 {
   padding: 10px;
   text-align: center;
@@ -115,7 +114,7 @@ section#ourteam {
 #ourteam .left .otlimg {
   width: 160px;
   height: 200px;
-  background-image: url(/img/pngegg2a.webp);
+  background-image: url(/img/potraid2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -217,6 +216,14 @@ footer {
     width: 700px;
     height: 259px;
   }
+  section#service .text {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
   .copyright {
     display: flex;
     justify-content: space-evenly;
@@ -255,6 +262,13 @@ footer {
   .imgslide {
     width: 500px;
     height: 185px;
+  }
+  section#service .text {
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
   }
   .copyright {
     display: flex;
