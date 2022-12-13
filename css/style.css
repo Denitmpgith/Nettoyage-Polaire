@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10vh auto 50vh 50vh 50vh auto 50vh auto;
+  grid-template-rows: 10vh auto auto 50vh 50vh auto 50vh auto;
 }
 a {
   display: flex;
@@ -48,7 +48,24 @@ section#service {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(223, 223, 223);
+}
+section#service .text {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+section#service .text h1 {
+  font-size: 2rem;
+}
+section#service .potraid {
+  width: 280px;
+  height: 350px;
+  background-image: url(/img/pngegg2b.png);
+  background-size: cover;
 }
 section#galery {
   grid-column: 1/13;
@@ -96,9 +113,9 @@ section#ourteam {
   flex-direction: column;
 }
 #ourteam .left .otlimg {
-  width: 200px;
-  height: 250px;
-  background-image: url(/img/potraid2.png);
+  width: 160px;
+  height: 200px;
+  background-image: url(/img/pngegg2a.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
