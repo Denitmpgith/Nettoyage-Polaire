@@ -177,6 +177,7 @@ footer {
   section#ourteam .ourteam .right .otrimg {
     width: 240px;
     height: 300px;
+    overflow: hidden;
     box-shadow: 2px 2px 5px black;
   }
   .copyright {
@@ -235,8 +236,9 @@ footer {
   section#ourteam .ourteam .left .otlimg,
   section#ourteam .ourteam .center .otcimg,
   section#ourteam .ourteam .right .otrimg {
-    width: 160px;
-    height: 200px;
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
     box-shadow: 2px 2px 5px black;
   }
   .copyright {
