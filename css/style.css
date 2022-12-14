@@ -266,9 +266,16 @@ footer {
   }
   section#ourteam .ourteam {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+  }
+  section#ourteam .ourteam .otlimg,
+  section#ourteam .ourteam .otcimg,
+  section#ourteam .ourteam .otrimg {
+    width: 160px;
+    height: 200px;
+    box-shadow: 2px 2px 5px black;
   }
   .copyright {
     display: flex;
