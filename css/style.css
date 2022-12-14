@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10vh auto 100vh 100vh 100vh 100vh 50vh auto;
+  grid-template-rows: 10vh auto 100vh 100vh 100vh 100vh 100vh auto;
 }
 section h2 {
   font-size: 1.2rem;
@@ -77,6 +77,9 @@ section#galery {
 section#testimony {
   grid-column: 1/13;
   grid-row: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(204, 204, 204);
 }
 section#ourteam {
