@@ -1,19 +1,16 @@
 @media screen and (max-width: 719px) {
   .logo {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 10vh;
-    justify-content: center;
+    grid-column: 1/13;
+    grid-row: 1;
+    width: 100vw;
     background: linear-gradient(to bottom, rgb(94, 92, 103, 1), rgba(94, 92, 103, 1), rgb(94, 92, 103, 0.85), rgba(94, 92, 103, 0.7), rgb(94, 92, 103, 0.5));
     box-shadow: 0px 0px 5px white;
   }
   menu {
     position: fixed;
     bottom: 0;
-    right: 0;
     left: 0;
+    right: 0;
     height: 10vh;
     background: linear-gradient(to bottom, rgb(94, 92, 103, 0.5), rgba(94, 92, 103, 0.7), rgb(94, 92, 103, 0.85), rgba(94, 92, 103, 1), rgb(94, 92, 103, 1));
     box-shadow: 0px 0px 5px white;
