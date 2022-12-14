@@ -82,6 +82,11 @@ section#ourteam {
   grid-row: 6;
   background-color: rgb(255, 255, 255);
 }
+section#ourteam .ourteam .left,
+section#ourteam .ourteam .center,
+section#ourteam .ourteam .right {
+  margin: 10px 0px 10px 0px;
+}
 section#ourteam .ourteam .left .otlimg,
 section#ourteam .ourteam .center .otcimg,
 section#ourteam .ourteam .right .otrimg {
@@ -89,10 +94,13 @@ section#ourteam .ourteam .right .otrimg {
   justify-content: space-evenly;
   align-items: center;
 }
+section#ourteam .text {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
 section#ourteam h1 {
   padding: 10px;
   text-align: center;
-  font-size: 50px;
   text-transform: capitalize;
 }
 section#mapping {
@@ -121,6 +129,10 @@ footer {
 .sm {
   margin-top: 10px;
   width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.copyright {
   display: flex;
   justify-content: space-evenly;
 }
@@ -179,6 +191,9 @@ footer {
     height: 300px;
     overflow: hidden;
     box-shadow: 2px 2px 5px black;
+  }
+  section#ourteam h1 {
+    font-size: 2.5rem;
   }
   .copyright {
     display: flex;
@@ -242,10 +257,13 @@ footer {
     overflow: hidden;
     box-shadow: 2px 2px 5px black;
   }
+  section#ourteam h1 {
+    font-size: 1.5rem;
+  }
   .copyright {
-    display: flex;
-    justify-content: space-evenly;
     align-items: flex-start;
+    margin-top: 10px;
     height: 13vh;
+    font-size: 0.8rem;
   }
 }
