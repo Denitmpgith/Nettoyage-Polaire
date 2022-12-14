@@ -1,0 +1,72 @@
+@media screen and (max-width: 719px) {
+  .logo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10vh;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(94, 92, 103, 1), rgba(94, 92, 103, 0.9), rgb(94, 92, 103, 0.8), rgba(94, 92, 103, 0.7), rgb(94, 92, 103, 0.6));
+    box-shadow: 0px 0px 5px white;
+  }
+  menu {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 10vh;
+    background: linear-gradient(to bottom, rgb(94, 92, 103, 0.55), rgba(94, 92, 103, 0.7), rgb(94, 92, 103, 0.85), rgba(94, 92, 103, 1), rgb(94, 92, 103, 1));
+    box-shadow: 0px 0px 5px white;
+  }
+  nav menu ul li a img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav menu ul li a p {
+    display: none;
+  }
+  ul li :hover {
+    width: 60px;
+    height: 60px;
+  }
+  .active {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    /* background: linear-gradient(to bottom, rgba(52, 198, 244, 0.25), rgba(255, 255, 255, 0.75), rgb(255, 255, 255, 1), rgba(255, 255, 255, 0.75), rgb(52, 198, 244, 0.25)); */
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px rgb(0, 0, 0);
+  }
+  .imgslide {
+    width: 500px;
+    height: 185px;
+  }
+  section#service .text {
+    width: 85vw;
+    height: auto;
+    justify-content: center;
+  }
+  section#ourteam .ourteam {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  section#ourteam .ourteam .left .otlimg,
+  section#ourteam .ourteam .center .otcimg,
+  section#ourteam .ourteam .right .otrimg {
+    width: 120px;
+    height: 150px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px black;
+  }
+  section#ourteam h1 {
+    font-size: 1.5rem;
+  }
+  .copyright {
+    align-items: center;
+    align-items: flex-start;
+    margin-top: 10px;
+    height: 13vh;
+    font-size: 0.8rem;
+  }
+}
