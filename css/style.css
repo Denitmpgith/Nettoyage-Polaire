@@ -1,7 +1,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10vh auto 100vh 100vh 100vh 100vh 100vh auto;
+  grid-template-rows: 10vh auto 90vh 90vh 90vh 90vh 90vh auto;
 }
 section h2 {
   font-size: 1.2rem;
