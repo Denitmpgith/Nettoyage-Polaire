@@ -232,6 +232,7 @@ footer {
     align-items: center;
     text-align: center;
     flex-direction: row;
+    flex-wrap: wrap;
   }
   section#ourteam .ourteam .left .otlimg,
   section#ourteam .ourteam .center .otcimg,
