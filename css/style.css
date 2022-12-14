@@ -22,7 +22,7 @@ a {
   background-image: url(/img/logoNP.png);
   background-size: 200px;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 menu {
