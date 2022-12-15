@@ -35,6 +35,34 @@
     border-radius: 10px;
     box-shadow: 0px 2px 3px rgb(0, 0, 0);
   }
+  section#galery .boxgalery {
+    padding: 10px 0px 10px 0px;
+    gap: 10px;
+  }
+  section#galery .gb {
+    width: 160px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 1px 1px 3px black;
+  }
+  section#galery .gbp {
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+  }
+  section#galery .gbh {
+    width: 160px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  section#galery .gbt {
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
   .imgslide {
     width: 500px;
     height: 185px;
@@ -48,13 +76,12 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  section#ourteam .ourteam .left .otlimg,
-  section#ourteam .ourteam .center .otcimg,
-  section#ourteam .ourteam .right .otrimg {
+  section#ourteam .ourteam .data .otimg {
     width: 120px;
     height: 150px;
+    border-radius: 5px;
     overflow: hidden;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 1px 1px 3px black;
   }
   section#ourteam h1 {
     font-size: 1.5rem;

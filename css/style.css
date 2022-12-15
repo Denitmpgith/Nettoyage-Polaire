@@ -1,10 +1,10 @@
 body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10vh auto 90vh 90vh 90vh 90vh 90vh auto;
+  grid-template-rows: 10vh auto 90vh auto 90vh 90vh 90vh auto;
 }
 section h2 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 5px;
 }
 a {
@@ -58,9 +58,6 @@ section#service .text {
   align-items: center;
   flex-direction: column;
 }
-section#service .text h1 {
-  font-size: 2rem;
-}
 section#service .potraid {
   width: 280px;
   height: 350px;
@@ -73,7 +70,17 @@ section#galery {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
+section#galery .boxgalery {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+h3 {
+  font-size: 1rem;
 }
 section#testimony {
   grid-column: 1/13;
@@ -88,31 +95,31 @@ section#ourteam {
   grid-row: 6;
   background-color: rgb(255, 255, 255);
 }
+section h1 {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
 section#ourteam .ourteam {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
 }
-section#ourteam .ourteam .left,
-section#ourteam .ourteam .center,
-section#ourteam .ourteam .right {
+section#ourteam .ourteam .data {
   margin: 10px 0px 10px 0px;
 }
-section#ourteam .ourteam .left .otlimg,
-section#ourteam .ourteam .center .otcimg,
-section#ourteam .ourteam .right .otrimg {
+section#ourteam .ourteam .data .otimg {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-section#ourteam .text {
-  text-align: center;
-  padding: 0px 20px 0px 20px;
-}
-section#ourteam h1 {
+section#ourteam .ourteam .data h3 {
   padding: 10px;
   text-align: center;
   text-transform: capitalize;
+}
+section#ourteam .text {
+  text-align: center;
+  padding: 0px 20px 0px 20px;
 }
 section#mapping {
   grid-column: 1/13;
@@ -135,13 +142,14 @@ footer {
 .footerb {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
 }
 .sm {
   margin-top: 10px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
 }
 .copyright {
   display: flex;
